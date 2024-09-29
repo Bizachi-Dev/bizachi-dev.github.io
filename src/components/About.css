@@ -1,0 +1,24 @@
+/* src/components/About.css */
+.about {
+  padding: 20px;
+  background-image: url('../images/Background2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
+
+.about * {
+  margin: 0;
+  padding: 0;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

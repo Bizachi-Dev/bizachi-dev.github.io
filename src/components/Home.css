@@ -1,0 +1,149 @@
+/* Styling for the Home section */
+.home {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../images/Background2.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+/* Header content (text) at the top */
+.home-header {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.home-header h1 {
+  font-family: 'Bebas', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  color: #837a7a;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-family: 'Bebas', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Featured projects section */
+.featured-projects {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+.featured-projects h2 {
+  font-family: 'Bebas', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #494545;
+  margin-bottom: 20px;
+}
+
+/* Styling for the project list */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Project card with animation */
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slide-in-right 0.8s ease forwards;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Cascading animation delay for project cards */
+.project-card:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.project-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.project-card:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.project-card:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+/* Keyframe animation for sliding in from the right */
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+}
+
+/* Responsiveness for mobile devices */
+@media (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .home-header p {
+    font-size: 1rem;
+  }
+
+  .featured-projects h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 250px;
+  }
+}

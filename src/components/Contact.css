@@ -1,0 +1,53 @@
+/* src/components/Contact.css */
+.contact {
+  font-family: 'Bebas', sans-serif;
+  padding: 20px;
+  background-image: url('../images/Background2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h2 {
+  
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact-list a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.contact-list span {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
