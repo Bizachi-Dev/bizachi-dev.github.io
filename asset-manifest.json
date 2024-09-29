@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72607253.css",
+    "main.js": "/static/js/main.ae0d13a4.js",
+    "static/media/Icon_Html5.png": "/static/media/Icon_Html5.88cc352cf4546290d935.png",
+    "static/media/Roboto-Italic.ttf": "/static/media/Roboto-Italic.cd47f5421512ee65fe22.ttf",
+    "static/media/Project1Preview.png": "/static/media/Project1Preview.25d7e2d547030be45b6e.png",
+    "static/media/Background2.png": "/static/media/Background2.1456cbf58078c80f047b.png",
+    "static/media/Icon_Playfab.png": "/static/media/Icon_Playfab.be9c5f7b190f458fb412.png",
+    "static/media/Icon_Css3.png": "/static/media/Icon_Css3.fe83363172221bbdf79c.png",
+    "static/media/Icon_NodeJS.png": "/static/media/Icon_NodeJS.9518c3f60ccca5e6514b.png",
+    "static/media/Icon_CSharp.png": "/static/media/Icon_CSharp.42f36b6dd2b02023ddb6.png",
+    "static/media/BizachiLogo.png": "/static/media/BizachiLogo.b7279cbd5fd87ada01a9.png",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/Icon_Firebase.png": "/static/media/Icon_Firebase.0a67d6f769b22c222b2f.png",
+    "static/media/Icon_React.png": "/static/media/Icon_React.4dbd04500a5d3834561f.png",
+    "static/media/Icon_JS.png": "/static/media/Icon_JS.7269719457004f7557fa.png",
+    "static/media/Icon_Python.png": "/static/media/Icon_Python.7d07d04b2b41e5863f3a.png",
+    "static/media/Icon_Unity.png": "/static/media/Icon_Unity.5e11b05aaf0a40b82d87.png",
+    "index.html": "/index.html",
+    "main.72607253.css.map": "/static/css/main.72607253.css.map",
+    "main.ae0d13a4.js.map": "/static/js/main.ae0d13a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72607253.css",
+    "static/js/main.ae0d13a4.js"
+  ]
+}
